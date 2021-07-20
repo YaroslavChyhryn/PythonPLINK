@@ -4,7 +4,7 @@
 1. not-admin/ - Admin
 2. api/v1/ - Api Root
 3. api/v1/register - accept json and if its valid create user
-4. api/v1/token - if user authorized return his token
+4. api/v1/token - if user authenticated return his token
 5. api/v1/requests - return all registration requests from client ip
 6. api/v1/note - all user notes
 7. api/v1/note/[note_id] - read, update, delete specific note
