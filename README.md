@@ -25,3 +25,7 @@ http://localhost:8000/api/v1/register
 DEBUG=**any or delete for DEBUG=False**
 SECRET_KEY=**your secret key here**
 ```
+## Example of request with token
+```
+curl -X GET http://127.0.0.1:8000/api/v1/note/  -H "Authorization: Token **token_value_here**"
+```
